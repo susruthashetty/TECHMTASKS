@@ -1,6 +1,6 @@
 package com.example;
 
-public class JUnit_Task7 {
+public class Task7 {
 	public int add(int a, int b) {
         return a + b;
     }
