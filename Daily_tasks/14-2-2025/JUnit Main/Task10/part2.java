@@ -1,9 +1,9 @@
 package com.example;
 
-public class JUnit_Task10_Component2 {
-	private final JUnit_Task10_Component1 repository;
+public class part2 {
+	private final part1 repository;
 
-    public JUnit_Task10_Component2(JUnit_Task10_Component1 repository) {
+    public JUnit_Task10_Component2(part1 repository) {
         this.repository = repository;
     }
 
