@@ -1,8 +1,6 @@
-//5. Write a TypeScript program that declares a variable without specifying its type and shows how TypeScript infers the type based on the assigned value.
-
-let temp = 100;
-
-//temp = "Hello, TypeScript!"; // This line will result in a type error
-
-console.log("Type of temp:", typeof temp);
-console.log("temp:", temp);
+///6. Write a TypeScript program that converts a variable of one type to another using type assertions and type conversion functions like parseInt().
+var str_num = "100";
+var num = parseInt(str_num);
+console.log("Type of the variable before type assertion:", typeof str_num);
+console.log("Type of the variable after type assertion:", typeof num);
+console.log("Number from assertion:", num);
